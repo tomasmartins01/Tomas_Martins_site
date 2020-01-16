@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    height: 5rem;
+    width: 100%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+}
+
+.menu {
+    display: flex;
+    flex-grow: 1;
+    margin-right: 10px;
+    justify-content: flex-end;
+}
+
+#a:hover {
+    color: orange;
+    font-size: 20px;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-item {
+    list-style: none;
+    margin-right: 12px;
+    margin: 10px;
+}
+
+.menu-item>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.title {
+    font-size: 50px;
+    size: 50px;
+    padding-left: 10px;
+}
+
+.img {
+    width: 400px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: double;
+    border-width: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5.5rem;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.pecado {
+    font-size: 50px;
+    color: black;
+}
+
+.audio {
+    margin-top: 10px;
+}
+
+.lyrics {
+    color: black;
+}
+
+.lyrics__title {
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#footer {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    padding: 5px 0;
+    background-color: black;
+}
+
+@media (max-width:460px) {}
