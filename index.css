@@ -1,130 +1,164 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Permanent Marker', cursive;
-}
-
-html,
-body {
-    width: 100%;
-    height: 100%;
-}
-
-body {
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-}
-
-#header {
-    height: 5rem;
-    padding: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #ffffff;
-    color: black;
-}
-
-.menu {
-    display: flex;
-    flex-grow: 1;
-    margin-right: 10px;
-    justify-content: flex-end;
-}
-
-.insta {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
-
-.menu-list {
-    display: flex;
-}
-
-.menu-item {
-    list-style: none;
-    margin-right: 12px;
-}
-
-.menu-item>a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 1.2rem;
-}
-
-.title {
-    font-size: 50px;
-    size: 50px;
-    margin: 10px;
-}
-
-.img {
-    width: 600px;
-    height: 600px;
-    border-radius: 20px;
-    margin-right: 100px;
-}
-
-#container {
-    display: flex;
-    align-items: center;
-    margin: 50px;
-    text-decoration: none;
-    justify-content: center;
-}
-
-#container2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    font-size: 15px;
-    width: 600px;
-}
-
-#a {
-    text-decoration: none;
-    font-size: 90px;
-    color: #ffffff;
-    justify-content: space-around;
-    margin: 20px;
-}
-
-#a:hover {
-    color: orange;
-    font-size: 100px;
-}
-
-.agonia {
-    font-size: 40px;
-    color: #ffffff;
-}
-
-.audio {
-    margin-top: 10px;
-}
-
-.lyrics {
-    color: #ffffff;
-}
-
-.lyrics__title {
-    align-items: center;
-    color: #ffffff;
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-
-#footer {
-    width: 100%;
-    flex-grow: 1;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    color: white;
-    margin-bottom: 20px;
-}
-
-@media (max-width:460px) {}
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Permanent Marker', cursive;
+        }
+        
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+        
+        body {
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #header {
+            height: 5rem;
+            padding: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #ffffff;
+            color: black;
+        }
+        
+        .menu {
+            display: flex;
+            flex-grow: 1;
+            margin-right: 10px;
+            justify-content: flex-end;
+        }
+        
+        .insta {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        
+        .menu-list {
+            display: flex;
+        }
+        
+        .menu-item {
+            list-style: none;
+            margin-right: 12px;
+        }
+        
+        .menu-item>a {
+            text-decoration: none;
+            color: #000000;
+            font-size: 1.2rem;
+        }
+        
+        .title {
+            font-size: 50px;
+            size: 50px;
+            margin-left: 10px;
+        }
+        
+        .img {
+            width: 600px;
+            height: 600px;
+            border-radius: 20px;
+            margin-left: 15%;
+        }
+        
+        #container {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+            text-decoration: none;
+            justify-content: center;
+        }
+        
+        #container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 15px;
+            width: 100%;
+        }
+        
+        #a {
+            text-decoration: none;
+            font-size: 90px;
+            color: #ffffff;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        
+        #a:hover {
+            color: orange;
+            font-size: 100px;
+        }
+        
+        .agonia {
+            font-size: 40px;
+            color: #ffffff;
+        }
+        
+        .audio {
+            margin-top: 10px;
+        }
+        
+        .lyrics {
+            color: #ffffff;
+        }
+        
+        .lyrics__title {
+            align-items: center;
+            color: #ffffff;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        
+        #footer {
+            width: 100%;
+            flex-grow: 1;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            color: white;
+            margin-bottom: 5px;
+            background-color: black;
+        }
+        
+        @media (max-width:460px) {
+            .header__title {
+                font-size: 50px;
+            }
+            .footer__text {
+                font-size: 10px;
+            }
+            #container {
+                flex-direction: column;
+            }
+            .img {
+                width: 300px;
+                height: 300px;
+                margin-left: 0;
+            }
+            .title {
+                font-size: 30px;
+            }
+            #a {
+                font-size: 50px;
+            }
+            #a:hover {
+                color: orange;
+                font-size: 60px;
+            }
+            .image-container {
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+            }
+            .insta {
+                width: 40px;
+                height: 40px;
+            }
+        }
