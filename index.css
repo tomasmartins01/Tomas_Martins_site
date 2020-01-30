@@ -83,15 +83,16 @@
             width: 100%;
         }
         
-        #a {
+        .a {
             text-decoration: none;
             font-size: 90px;
             color: #ffffff;
             justify-content: space-around;
             margin: 20px;
+            transition: all 1s;
         }
         
-        #a:hover {
+        .a:hover {
             color: orange;
             font-size: 100px;
         }
