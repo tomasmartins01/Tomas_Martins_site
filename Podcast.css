@@ -65,10 +65,18 @@ body {
     padding-left: 10px;
 }
 
-.Quem_sou {
+.Epa_yha {
     color: black;
     font-size: 60px;
     margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.img {
+    width: 600px;
+    height: 6 00px;
+    border-radius: 20px;
+    border: black 8px solid;
 }
 
 #footer {
@@ -82,19 +90,10 @@ body {
     background-color: #ffffff;
 }
 
-.img {
-    width: 260px;
-    height: 300px;
-    border-radius: 20px;
-    border-radius: 10px;
-    border-color: black;
-    border-style: solid;
-    border-width: 5px;
-    margin-top: 7rem;
-}
-
 .text {
-    margin: 15px;
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .img1 {
